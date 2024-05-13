@@ -32,31 +32,31 @@ export default function Header() {
      data-aos-duration="2000">
                 <Marquee pauseOnHover gradient gradientColor={"black"} className="flex" >
                     <div className="faint slide flex  items-center py-[15px] px-4   rounded-[15px] gap-2 ml-3">
-                        <img className="w-[67px]" src="../../public/image/3speak.png" alt="" /> <span className="text-[18px]">3speak</span>
+                        <img className="w-[67px]" src="../../image/3speak.png" alt="" /> <span className="text-[18px]">3speak</span>
                     </div>
                     <div className=" flex  items-center faint py-[15px] px-4 rounded-[15px] gap-2 ml-3">
-                        <img className="w-[55px]" src="../../public/image/lifestyle.png" alt="" /> <span className="text-[18px]">Lifestyle</span>
+                        <img className="w-[55px]" src="../../image/lifestyle.png" alt="" /> <span className="text-[18px]">Lifestyle</span>
                     </div>
                     <div className=" flex  items-center faint py-[15px] px-4 rounded-[15px] gap-2 ml-3">
-                        <img className="w-[60px]" src="../../public/image/Gem.png" alt="" /> <span className="text-[18px]">Gem</span>
+                        <img className="w-[60px]" src="../../image/Gem.png" alt="" /> <span className="text-[18px]">Gem</span>
                     </div>
                     <div className=" flex  items-center faint py-[15px] px-4 rounded-[15px] gap-2 ml-3">
-                        <img className="w-[60px]" src="../../public/image/leo.png" alt="" /> <span className="text-[18px]">Leo Finance</span>
+                        <img className="w-[60px]" src="../../public/Leo.png" alt="" /> <span className="text-[18px]">Leo Finance</span>
                     </div>
                     <div className=" flex  items-center faint py-[15px] px-4 rounded-[15px] gap-2 ml-3">
-                        <img className="w-[67px]" src="../../public/image/3speak.png" alt="" /> <span className="text-[18px]">3speak</span>
+                        <img className="w-[67px]" src="../../image/3speak.png" alt="" /> <span className="text-[18px]">3speak</span>
                     </div>
                     <div className=" flex  items-center faint py-[15px] px-4 rounded-[15px] gap-2 ml-3">
-                        <img className="w-[60px]" src="../../public/image/lifestyle.png" alt="" /> <span className="text-[18px]">Lifestyle</span>
+                        <img className="w-[60px]" src="../../image/lifestyle.png" alt="" /> <span className="text-[18px]">Lifestyle</span>
                     </div>
                     <div className=" flex  items-center faint py-[15px] px-4 rounded-[15px] gap-2 ml-3">
-                        <img className="w-[60px]" src="../../public/image/chain-art.jfif" alt="" /> <span className="text-[18px]">Chain-art</span>
+                        <img className="w-[60px]" src="../../image/chain-art.jfif" alt="" /> <span className="text-[18px]">Chain-art</span>
                     </div>
                     <div className=" flex  items-center faint py-[15px] px-4 rounded-[15px] gap-2 ml-3">
-                        <img className="w-[60px]" src="../../public/image/deep-dive.jfif" alt="" /> <span className="text-[18px]">Deep-dive</span>
+                        <img className="w-[60px]" src="../../image/deep-dive.jfif" alt="" /> <span className="text-[18px]">Deep-dive</span>
                     </div>
                     <div className=" flex  items-center faint py-[15px] px-4 rounded-[15px] gap-2 ml-3">
-                        <img className="w-[60px]" src="../../public/image/hive-game.png" alt="" /> <span className="text-[18px]">Hive-game</span>
+                        <img className="w-[60px]" src="../../image/hive-game.png" alt="" /> <span className="text-[18px]">Hive-game</span>
                     </div>
                 </Marquee>
             </div>

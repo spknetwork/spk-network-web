@@ -51,7 +51,7 @@ function Slider() {
                 </p>
               </div>
               <img
-                src="../../public/image/nodes.png"
+                src="../../image/nodes.png"
                 alt="Slide 2"
                 className="md:w-[50%]  rounded-sm md:rounded-[40px] "
               />
@@ -76,7 +76,7 @@ function Slider() {
                 </p>
               </div>
               <img
-                src="../../public/image/poopl.png"
+                src="../../image/poopl.png"
                 alt="Slide 2"
                 className="md:w-[50%] rounded-sm md:rounded-[40px] "
               />
@@ -104,7 +104,7 @@ function Slider() {
                 </p>
               </div>
               <img
-                src="../../public/image/network.png"
+                src="../../public/network.png"
                 alt="Slide 2"
                 className="md:w-[50%] rounded-sm md:rounded-[40px] "
               />
@@ -124,7 +124,7 @@ function Slider() {
                 </p>
               </div>
               <img
-                src="../../public/image/token.png"
+                src="../../image/token.png"
                 alt="Slide 2"
                 className="md:w-[50%] rounded-sm md:rounded-[40px] "
               />
@@ -144,7 +144,7 @@ function Slider() {
                 </p>
               </div>
               <img
-                src="../../public/image/s-token.png"
+                src="../../image/s-token.png"
                 alt="Slide 2"
                 className="md:w-[50%] rounded-sm md:rounded-[40px]"
               />

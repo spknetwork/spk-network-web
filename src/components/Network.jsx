@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 export default function Network() {
   return (
     <div className="network-wrap network-wrap">
-      <div className="main-margin min-h-screen ">
+      <div className="main-margin min-h-screen  pt-44">
         <div className=" ">
           <h1 className=" double-color text-center text-[35px] md:text-[45px] font-bold  my-8">
             SPK Network...

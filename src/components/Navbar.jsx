@@ -12,7 +12,7 @@ export default function Navbar() {
   };
   return (
     <div className='sticky z-10 top-0 bg-black flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
-     <Link  to="/"><img className="w-[50px]" src="../../public/image/SPK.4d91f7a0.png" alt="" /></Link>
+     <Link  to="/"><img className="w-[50px]" src="../../image/SPK.4d91f7a0.png" alt="" /></Link>
     <ul className='hidden md:flex'>
      <Link to="/Tokenomics"> <li className='p-4'>TOKENOMICS</li></Link>
      <a href="#faq"><li className='p-4'>FAQ</li></a>
