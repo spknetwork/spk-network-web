@@ -100,7 +100,7 @@ function Slider() {
                   rewarded for storing data using IPFS. You no longer need to
                   rely solely on blockchain to store files; now, IPFS operation
                   and beyond can be rewarded for joining the web 3 sharing
-                  economy.</span>
+                  economy</span>
                 </p>
               </div>
               <img
