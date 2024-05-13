@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+*{
+  color: #9ca9b3;
+  box-sizing: border-box;
+}
+body {
+  /* background: radial-gradient(164.75% 100% at 50% 0%, #334155 0%, #0F172A 48.73%); */
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.faint{
+background: linear-gradient(101.125deg, rgba(206, 206, 206, 0.2) 0%, rgba(70, 70, 70, 0.2) 100%);
+}
+.faint1{
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,107,1) 33%, rgba(205,31,64,1) 78%, rgba(0,212,255,1) 100%);
+}
+.faint2{
+  background-color: rgb(47, 47, 50);
+  opacity: 1;
+}
+.bg-color1{
+  background-color: rgb(24, 24, 27);
+}
+
+@layer components{
+ 
+  .ctr{
+    @apply flex flex-col items-center
+  }
+  .ctr-md{
+    @apply flex flex-row
+  }
+  .bg-color{
+    /* @apply bg-[radial-gradient(164.75%_100%_at_50%_0%,#334155_0%,#0F172A_48.73%)] */
+  }
+
+  
+ 
+  .main-margin{
+    @apply mx-[15px] sm:mx-[100px] md:mx-[50px] lg:mx-[180px]
+  }
+  .main-margin-1{
+    @apply mx-[15px] sm:mx-[100px] md:mx-[50px] lg:ms-[180px] lg:me-[60px]
+  }
+
+
+
+ 
+}
+
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+} */

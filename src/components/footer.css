@@ -1,0 +1,24 @@
+.floating-image-1 {
+    animation: floatUpDown 2s infinite alternate ease-in-out; /* Adjust animation duration and timing function */
+  }
+  .floating-image-2 {
+    animation: floatUpDown 3s infinite alternate ease-in-out; /* Adjust animation duration and timing function */
+  }
+  .floating-image-3 {
+    animation: floatUpDown 4s infinite alternate ease-in-out; /* Adjust animation duration and timing function */
+  }
+  .floating-image-4 {
+    animation: floatUpDown 5s infinite alternate ease-in-out; /* Adjust animation duration and timing function */
+  }
+  .floating-image-5 {
+    animation: floatUpDown 6s infinite alternate ease-in-out; /* Adjust animation duration and timing function */
+  }
+  
+  @keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px); /* Adjust the distance the image floats up */
+    }
+  }

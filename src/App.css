@@ -1,0 +1,35 @@
+.app{
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+.my-smooth{
+    scroll-behavior: smooth;
+    transition:2s;
+}
+.double-color{
+    background: linear-gradient(180deg, #fff 0, #93b2c8 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.light-bg{
+    background: linear-gradient(127deg,hsla(0,0%,100%,.16) 17.35%,hsla(0,0%,85%,.04) 76.2%);
+    box-shadow: 0 4px 4px -1px rgba(0,0,0,.05)
+}
+.light-bgs{
+    background: linear-gradient(50deg,hsla(0,0%,100%,.16) 17.35%,hsla(0,0%,85%,.04) 76.2%);
+    box-shadow: 0 4px 4px -1px rgba(0,0,0,.05)
+}
+.light-bgt{
+    background: linear-gradient(200deg,hsla(0,0%,100%,.16) 17.35%,hsla(0,0%,85%,.04) 76.2%);
+    box-shadow: 0 4px 4px -1px rgba(0,0,0,.05)
+}
+.transition-all{
+    transition-property:all;
+    transition-timing-function:cubic-bezier(.4,0,.2,1);
+    transition-duration:.15s
+}
+.transform {
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
