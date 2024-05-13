@@ -31,7 +31,7 @@ export default function Sip() {
                 <h2 className="text-[32px] font-extrabold text-[white]">LARYNX MINER TOKEN</h2>
                 <p className=" text-[20px]  leading-7 ">In order to earn SPEAK tokens, miners need to burn Larynx miner tokens. The burned miner tokens will be used to provide infrastructure services to the network which will result in the rewarding of SPEAK tokens. You can get Larynx token by either
 - Sending HIVE to the SIP
-- Buying on the open market</p>
+- Buying on the open market.</p>
             </div>
             <div className="">
                 <img className="w-[100%] md:w-[2900px] rounded-[20px]" src="../../public/image/miner.png" alt="" />

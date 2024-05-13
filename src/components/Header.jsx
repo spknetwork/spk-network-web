@@ -41,7 +41,7 @@ export default function Header() {
                         <img className="w-[60px]" src="../../image/Gem.png" alt="" /> <span className="text-[18px]">Gem</span>
                     </div>
                     <div className=" flex  items-center faint py-[15px] px-4 rounded-[15px] gap-2 ml-3">
-                        <img className="w-[60px]" src="../../public/Leo.png" alt="" /> <span className="text-[18px]">Leo Finance</span>
+                        <img className="w-[60px]" src="../../image/Leo.png" alt="" /> <span className="text-[18px]">Leo Finance</span>
                     </div>
                     <div className=" flex  items-center faint py-[15px] px-4 rounded-[15px] gap-2 ml-3">
                         <img className="w-[67px]" src="../../image/3speak.png" alt="" /> <span className="text-[18px]">3speak</span>
