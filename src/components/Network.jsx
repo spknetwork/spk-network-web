@@ -75,10 +75,11 @@ export default function Network() {
               </div>
             </Link>
           </div>
-          <div className="md:mx-[200px] mt-3 grid md:grid-cols-2 xl:grid-cols-2 gap-2 h-[170%]">
+          <div className=" h-[170%] flex justify-center items-center">
+          {/* md:mx-[200px] mt-3 grid md:grid-cols-2 xl:grid-cols-2 gap-2 */}
             <Link to="/Monetization">
               {" "}
-              <div className="box-1 py-[35px] px-[30px] light-bg rounded-[7px] h-[500px] flex flex-col justify-between flex-1  ">
+              <div className="box-1 py-[35px] px-[30px] light-bg rounded-[7px] w-[fit] md:w-[400px]  h-[500px] flex flex-col justify-between flex-1  ">
                 <div className="">
                   <img
                     className="mb-[20px]"
@@ -96,7 +97,7 @@ export default function Network() {
                 </button>
               </div>
             </Link>
-            <Link to="/Monetization">
+            {/* <Link to="/Monetization">
               {" "}
               <div className="box-1 py-[35px] px-[30px] light-bgt rounded-[7px] h-[500px] flex flex-col justify-between flex-1  ">
                 <div className="">
@@ -117,7 +118,7 @@ export default function Network() {
                   LARYNX MINER CLAIM DROP (MONTHLY)
                 </button>
               </div>
-            </Link>
+            </Link> */}
 
             {/* <div className="">
               <img className="mb-[20px]" src="../../public/image/coma.svg" alt="" />

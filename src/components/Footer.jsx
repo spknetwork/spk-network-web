@@ -1,9 +1,6 @@
 import "./footer.css";
 import {
-  FaFacebookSquare,
   FaGithubSquare,
-  FaInstagram,
-  FaTwitterSquare,
 } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
@@ -45,7 +42,6 @@ const Footer = () => {
         <div className="flex  justify-center items-center w-[100%] ">
           <ul className=" flex justify-between gap-12  text-[23px] w-[100%  mb-4">
            <a href="https://discord.com/invite/RJn9dQfPeM"  target="_blank" rel="noopener noreferrer"> <li className="py-2 text-[18px] ">Contact</li></a>
-            <li className="py-2 text-[18px] ">Faq</li>
             <a href="https://discord.com/invite/RJn9dQfPeM"  target="_blank" rel="noopener noreferrer"><li className="py-2 text-[18px] ">Support</li> </a>
           </ul> 
         </div>

@@ -8,7 +8,7 @@ export default function Header() {
     <div className="text-white h-screen sm:h-[70vh] md:h-screen " data-aos="fade-left">
         <div className="md:main-margin sm:mx-3 " data-aos="fade-right">
             <div className="  text-center  ">
-                <h1 className=" text-[45px] mt-[100px] md:text-[70px] font-bold double-color">An incentivization layer for web3 </h1>
+                <h1 className=" text-[45px] mt-[50px] md:mt-[100px] md:text-[70px] font-bold double-color">An incentivization layer for web3 </h1>
                 <p className="text-[21px] md:text-[30px] mt-[40px] mb-5 md:mx-[100px]">Decentralised, incentivised Peer to Peer: Storage, Encoding, Content Delivery Networks and No Middle men or third parties involved in your content platforms</p>
                 <div className="flex justify-center mt-[40px] gap-5 mb-6">
                     <a className="flex  items-center px-3 py-1 ml-3 rounded-md  faint " href="https://apps.apple.com/us/app/3speak/id1614771373"  target="_blank" rel="noopener noreferrer">

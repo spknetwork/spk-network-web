@@ -1,6 +1,9 @@
 .accordion-wrap{
     margin: 0px 200px;
 }
+.text-a{
+  color: blue;
+}
   .accordion {
     width: 100%;
     margin: 100px auto;

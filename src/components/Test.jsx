@@ -4,9 +4,9 @@ export default function Test() {
   return ( 
     <div className="main-margin  min-h-screen" >
       <h1 className="text-center text-[45px] mt-20 mb[20px]" data-aos="fade-up"
-     data-aos-duration="3000">OUR COMMUNITIES</h1>
+     data-aos-duration="3000"> COMMUNITIES</h1>
       <p className="text-center text-[22px] md:mx-[120px]" data-aos="fade-up"
-     data-aos-duration="3000">Communities are immutable! Communities are owned by the creator and cannot be deleted by anyone but the creator. Information about a community is either stored on the blockchain or a distributed ledger (For example Ceramic/Orbitdb).</p>
+     data-aos-duration="3000">Communities are immutable! Communities are owned by the creator and cannot be deleted by anyone but the creator. Information about a community is either stored on the blockchain or a distributed ledger (For example Ceramic).</p>
       <div className="flex justify-center  items-center mt-[20px]">
       <div  className="mt-[34px] lg:mt-[60px] Partnerships_list__OznYa">
         <div data-aos="zoom-in" className="lg:h-[84px]  flex items-center justify-center rounded-[8px] lg:rounded-[12px] text Partnerships_base__m1APG">

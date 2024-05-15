@@ -21,7 +21,7 @@ function Slider() {
     <div className="relative main-margin">
       <div className="slider-header text-center mt-[110px] md:ml-[200px] md:mr-[200px]">
         <h2 className="text-[32px] font-bold text-[white]" data-aos="fade-up"
-     data-aos-duration="1000">Independant monetization</h2>
+     data-aos-duration="1000">Independent monetization</h2>
         <p className="text-[20px]" data-aos="fade-up"
      data-aos-duration="1000">Make community or content creator Memes into collectables with NFT&apos;s and issue them to the token holders who stake the most of a communities or a creator&apos;s token.Users can earn collectable memes by staking the tokens of a creator or a community</p>
       </div>
@@ -104,7 +104,7 @@ function Slider() {
                 </p>
               </div>
               <img
-                src="../../public/network.png"
+                src="../../image/network.png"
                 alt="Slide 2"
                 className="md:w-[50%] rounded-sm md:rounded-[40px] "
               />

@@ -11,7 +11,7 @@ export default function Sip() {
         <div data-aos="zoom-in" className=" flex-col md:flex-row flex justify-center items-center gap-[15px] md:mx-[150px] mb-[90px]">
             <div className="text-center md:text-start">
                 <h2 className="text-[32px] font-extrabold text-[white]">SIP</h2>
-                <p className=" text-[20px]  leading-7 ">By default, all payments made into the SPK Network go to the SIP and locked in place. The funds locked in the SIP are then used to generate more money and value through Defi fee generation which is used to help subsidize the cost of operating the network at the infrastructure layer. Payments made through purchases of Larynx Miner tokens and advertisement rights will be sent to the SIP and locked, resulting in a continueous steady growth of the SIP pool.</p>
+                <p className=" text-[20px]  leading-7 "> Payments made through purchases of Larynx Miner tokens  will be sent to the SIP and locked, resulting in a continueous steady growth of the SIP pool.</p>
             </div>
             <div className="">
                 <img className="w-[100%] md:w-[3900px] rounded-[20px]" src="../../public/image/sip.png" alt="" />
