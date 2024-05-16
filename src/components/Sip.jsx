@@ -14,7 +14,7 @@ export default function Sip() {
                 <p className=" text-[20px]  leading-7 "> Payments made through purchases of Larynx Miner tokens  will be sent to the SIP and locked, resulting in a continueous steady growth of the SIP pool.</p>
             </div>
             <div className="">
-                <img className="w-[100%] md:w-[3900px] rounded-[20px]" src="../../public/image/sip.png" alt="" />
+                <img className="w-[100%] md:w-[2000px] rounded-[20px]" src="../../image/sip.png" alt="" />
             </div>
         </div>
         <div data-aos="zoom-in"className=" flex-col md:flex-row-reverse flex justify-center items-center gap-[15px] md:mx-[150px] mb-[90px]">
@@ -34,7 +34,7 @@ export default function Sip() {
 - Buying on the open market.</p>
             </div>
             <div className="">
-                <img className="w-[100%] md:w-[2900px] rounded-[20px]" src="../../public/image/miner.png" alt="" />
+                <img className="w-[100%] md:w-[2900px] rounded-[20px]" src="../../image/miner.png" alt="" />
             </div>
         </div>
         <div data-aos="zoom-in" className=" flex-col md:flex-row-reverse flex justify-center  items-center gap-[15px] md:mx-[150px] mb-[90px]">
@@ -43,7 +43,7 @@ export default function Sip() {
                 <p className=" text-[18px]  leading-7 ">The main objective when it come to the Broca token is the limitation of spam. Creators or platforms will be required to spend Broca tokens in order to upload prioritized content to the SPK Network. Users will still be able to upload content via IDX or supported secondary method outside of the hive blockchain. Broca tokens will regnerate for each user on a daily basis based upon the amount of liquid SPEAK tokens have been powered up on their account.</p>
             </div>
             <div className="">
-                <img className="w-[100%] md:w-[3900px] rounded-[20px]" src="../../public/image/broca.png" alt="" />
+                <img className="w-[100%] md:w-[3900px] rounded-[20px]" src="../../image/broca.png" alt="" />
             </div>
         </div>
         <div data-aos="zoom-in" className=" flex-col md:flex-row flex justify-center  items-center gap-[15px] md:mx-[150px] mb-[90px]">
@@ -52,7 +52,7 @@ export default function Sip() {
                 <p className=" text-[20px]  leading-7 ">Speak tokens will be used for governance by network users which will enable users to play governance roles such as stake based voting. SPEAK can also be staked into the SIP DeFi Pool in order to be eligible to receive trading and DeFi fees</p>
             </div>
             <div className="">
-                <img className="w-[100%] md:w-[2900px] rounded-[20px]" src="../../public/image/speak.png" alt="" />
+                <img className="w-[100%] md:w-[2900px] rounded-[20px]" src="../../image/speak.png" alt="" />
             </div>
         </div>
         <div data-aos="zoom-in" className=" flex-col md:flex-row flex justify-center items-center gap-[15px] md:mx-[150px] mb-[90px]">
@@ -66,7 +66,7 @@ export default function Sip() {
 - Vote on network governance via staking SPEAK tokens.</p>
             </div>
             <div className="">
-                <img className="w-[100%] md:w-[2900px] rounded-[20px]" src="../../public/image/network.svg" alt="" />
+                <img className="w-[100%] md:w-[2900px] rounded-[20px]" src="../../image/network.svg" alt="" />
             </div>
         </div>
         
