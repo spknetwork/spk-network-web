@@ -23,7 +23,7 @@ export default function Sip() {
                 <p className=" text-[20px]  leading-7 ">The Speak Network will support five tokens which will be used to complete transactions within the network systems. Each of these tokens will be used to provide incentives for servie node operators to provide services to the network and ensure the network runs smoothly</p>
             </div>
             <div className="">
-                <img className="w-[100%] md:w-[3100px] rounded-[20px]" src="../../public/image/utilities.png" alt="" />
+                <img className="w-[100%] md:w-[3100px] rounded-[20px]" src="../../image/utilities.png" alt="" />
             </div>
         </div>
         <div data-aos="zoom-in" className=" flex-col md:flex-row flex justify-center items-center gap-[15px] md:mx-[150px] mb-[90px]">
