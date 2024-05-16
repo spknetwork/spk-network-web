@@ -25,14 +25,14 @@ export default function Faq() {
           },
 
       ];
-   
+   console.log(data[1])
   return (
     <div id="faq"  className="accordion-wrap my-smooth">
       <div className="accordion ">
          <h2>Frequently Asked Questions</h2>
     {data.map((el, i) => (
       <AccordionItem title={el.title} CurOpen={CurOpen} OnOpen={setCurOpen}  num={i} key={el.title}>
-        {el.text} <a className="text-a" href={el.url}> link</a>
+        {el.text} {i === data.length - 1 && <a className="text-a" href={el.url}>link</a>}
         </AccordionItem>   
     ))}
   </div>
