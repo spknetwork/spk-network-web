@@ -15,7 +15,7 @@ export default function Faq() {
         {
           title: "How To Earn Rewards?",
           text:
-          "Content platforms, content creators or individual users can help the network by storing, validating, serving high throughput content or encoding videos and content. Participating in these activities allows individuals to earn mining rewards without the need for physical mining rigs"
+          "Content platforms, content creators or individual users can help the network by storing, validating, serving high throughput content or encoding videos and content. Participating in these activities allows individuals to earn mining rewards without the need for physical mining rigs."
         },
         {
             title: "How To Run SPK Storage Node",
