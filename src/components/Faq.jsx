@@ -7,11 +7,11 @@ import { useState } from "react";
 export default function Faq() {
     const [CurOpen, setCurOpen] = useState(null);
     const data = [
-        {
-          title: "Independant monetization?",
-          text:
-          "Make community or content creator Memes into collectables with NFT's and issue them to the token holders who stake the most of a communities' or a creator's token.Users can earn collectable memes by staking the tokens of a creator or a community"
-        },
+        // {
+        //   title: "Independant monetization?",
+        //   text:
+        //   "Make community or content creator Memes into collectables with NFT's and issue them to the token holders who stake the most of a communities' or a creator's token.Users can earn collectable memes by staking the tokens of a creator or a community"
+        // },
         {
           title: "How To Earn Rewards?",
           text:

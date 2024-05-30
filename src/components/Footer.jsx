@@ -45,8 +45,9 @@ const Footer = () => {
             <a href="https://discord.com/invite/RJn9dQfPeM"  target="_blank" rel="noopener noreferrer"><li className="py-2 text-[18px] ">Support</li> </a>
           </ul> 
         </div>
-        <div className=" flex justify-center items-center w-[100%] ">
-          <a className="flex  items-center px-3 py-1 ml-3 rounded-md  faint floating-image-1" href="https://apps.apple.com/us/app/3speak/id1614771373"
+        <div className="flex justify-center flex-col items-center w-[100%]">
+        <div className=" flex justify-center items-center  w-[100%]">
+          <a className="flex gap-[7px]  items-center px-3 py-1 ml-3 rounded-md  faint floating-image-1" href="https://apps.apple.com/us/app/3speak/id1614771373"
             target="_blank"
             rel="noopener noreferrer">
             <svg
@@ -64,7 +65,7 @@ const Footer = () => {
             </div>
           </a>  
           <a
-            className="flex  items-center px-3 py-1 ml-3 rounded-md  faint floating-image-2"
+            className="flex gap-[7px] items-center px-3 py-1 ml-3 rounded-md  faint floating-image-2"
             href="https://play.google.com/store/apps/details?id=tv.threespeak.app"
             target="_blank"
             rel="noopener noreferrer"
@@ -83,6 +84,8 @@ const Footer = () => {
               <span className="text-[17px] font-bold font">Play Store</span>
             </div>
           </a>
+        </div>
+        <a href=" https://linktr.ee/spknetwork" className="cursor-pointer"><button className="  p-[20px] mt-[20px] rounded-md  faint">Documentation and Link Trees</button></a>
         </div>
       </div>
     </div>

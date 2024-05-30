@@ -56,17 +56,21 @@ export default function Sip() {
             </div>
         </div>
         <div data-aos="zoom-in" className=" flex-col md:flex-row flex justify-center items-center gap-[15px] md:mx-[150px] mb-[90px]">
-            <div className="text-center md:text-start">
-                <h2 className="text-[28px] font-extrabold text-[white]">NETWORK TOKEN UTILITIES</h2>
-                <p className=" text-[20px]  leading-7 ">SPK Network tokens offer you access to the following utilities
-- Earn Mine SPEAK and regenerate more BROCA by burning LARYNX miner token and running Network Infrastructure Mill Nodes
-- Spend BROCA to receive incentivized storage video encoding and storage resources.
-- Transfer liquid BROCA in between accounts using a 3 second, feeless transfer system.
-- Users who power up their SPEAK will be eleigible to receive a portion of the SIP DeFi fees as well as users who stake SPEAK to the SIP.
-- Vote on network governance via staking SPEAK tokens.</p>
+            <div className=" pl-4 md:text-start">
+                <h2 className="text-[28px] font-extrabold text-[white] pb-3">NETWORK TOKEN UTILITIES</h2>
+                <p className=" text-[20px]  leading-7 "> </p>
+                <ul className="list-disc text-[20px] leading-7 ">
+                  <li>SPK Network tokens offer you access to the following utilities</li>
+                  <li>Earn Mine SPEAK and regenerate more BROCA by burning LARYNX miner token and running Network Infrastructure Mill Nodes</li>
+                  <li>Spend BROCA to receive incentivized storage video encoding and storage resources.</li>
+                  <li>Transfer liquid BROCA in between accounts using a 3 second, feeless transfer system.</li>
+                  <li>Users who power up their SPEAK will be eleigible to receive a portion of the SIP DeFi fees as well as users who stake SPEAK to the SIP.</li>
+                  <li>Vote on network governance via staking SPEAK tokens.</li>
+                </ul>
+
             </div>
             <div className="">
-                <img className="w-[100%] md:w-[2900px] rounded-[20px]" src="../../image/network.svg" alt="" />
+                <img className="w-[100%] md:w-[1100px] rounded-[20px]" src="../../image/network.svg" alt="" />
             </div>
         </div>
         
