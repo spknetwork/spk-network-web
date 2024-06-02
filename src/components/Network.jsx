@@ -11,7 +11,7 @@ export default function Network() {
           <div className="flex flex-col  md:flex-row  gap-2 mb-[20px]  " data-aos="zoom-in">
             <Link className="flex-1" to="/Monetization">
               {" "}
-              <div className="box-1  py-[35px] px-[30px] light-bg rounded-[7px] h-[500px] f flex flex-col justify-between  ">
+              <div className="box-1  py-[35px] px-[30px] light-bg rounded-[7px] h-[fit-content] f flex flex-col justify-between  ">
                 <div className="">
                   <img
                     className="mb-[20px]"
@@ -31,7 +31,7 @@ export default function Network() {
             </Link>
             <Link className="flex-1" to="/Monetization">
               {" "}
-              <div className="box-1 py-[35px] px-[30px] light-bg rounded-[7px] h-[500px] flex flex-col justify-between  ">
+              <div className="box-1 py-[35px] px-[30px] light-bg rounded-[7px] h-[fit-content] flex flex-col justify-between  ">
                 <div className="">
                   <img
                     className="mb-[20px]"
@@ -55,7 +55,7 @@ export default function Network() {
             </Link>
             <Link className="flex-1" to="/Monetization">
               {" "}
-              <div className="box-1 py-[35px] px-[30px] light-bgt rounded-[7px] h-[500px] flex flex-col justify-between  ">
+              <div className="box-1 py-[35px] px-[30px] light-bgt rounded-[7px] h-[fit-content] flex flex-col justify-between  ">
                 <div className="">
                   <img
                     className="mb-[20px]"
@@ -79,7 +79,7 @@ export default function Network() {
           {/* md:mx-[200px] mt-3 grid md:grid-cols-2 xl:grid-cols-2 gap-2 */}
             <Link to="/Monetization">
               {" "}
-              <div className="box-1 py-[35px] px-[30px] light-bg rounded-[7px] w-[fit] md:w-[400px]  h-[500px] flex flex-col justify-between flex-1  ">
+              <div className="box-1 py-[35px] px-[30px] light-bg rounded-[7px] w-[fit] md:w-[400px]  h-[fit-content] flex flex-col justify-between flex-1  ">
                 <div className="">
                   <img
                     className="mb-[20px]"

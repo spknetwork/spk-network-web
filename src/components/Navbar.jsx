@@ -1,4 +1,3 @@
-import { CiMenuBurger } from "react-icons/ci";
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -16,11 +15,9 @@ export default function Navbar() {
     <ul className='hidden md:flex'>
      <Link to="/Tokenomics"> <li className='p-4'>TOKENOMICS</li></Link>
      <a href="#faq"><li className='p-4'>FAQ</li></a>
-     <a href="https://play.google.com/store/apps/details?id=tv.threespeak.app" className="cursor-pointer"><li className='p-4'> JOIN NOW</li></a>
-     {/* <li className='p-4' smooth={true} duration={1000}> <a href="#faq"  >Section 1</a></li> */}
-     
-      
+     <a href=" https://linktr.ee/spknetwork" className="cursor-pointer "><li className='p-4 '> Documentation and Link Trees</li></a>  
     </ul>
+    <a href=" https://linktr.ee/proofofaccess" className="cursor-pointer hidden md:block "><button className='p-4 faint rounded-md text-[#9ca9b3]'> Proof of Access Algorithm</button></a>
     <div onClick={handleNav} className='block md:hidden'>
         {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
     </div>
