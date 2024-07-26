@@ -15,7 +15,7 @@ export default function Navbar() {
     <ul className='hidden md:flex'>
      <Link to="/Tokenomics"> <li className='p-4'>TOKENOMICS</li></Link>
      <a href="#faq"><li className='p-4'>FAQ</li></a>
-     <a href=" https://linktr.ee/spknetwork" className="cursor-pointer "><li className='p-4 '> Documentation and Link Trees</li></a>  
+     <a href=" https://linktr.ee/spknetwork" className="cursor-pointer "><li className='p-4 '> Link Trees and Dev Docs </li></a>  
     </ul>
     <a href=" https://linktr.ee/proofofaccess" className="cursor-pointer hidden md:block "><button className='p-4 faint rounded-md text-[#9ca9b3]'> Proof of Access Algorithm</button></a>
     <div onClick={handleNav} className='block md:hidden'>
@@ -33,41 +33,5 @@ export default function Navbar() {
             rel="noopener noreferrer"><li className='p-4'>Contact</li></a>
     </ul>
   </div>
-    // <div>
-    //   <div className="main-margin">
-    //     <div className="md:flex justify-between items-center hidden ">
-    //       <img className="w-[50px]" src="../../public/image/SPK.4d91f7a0.png" alt="" />
-    //       <ul className="md:flex gap-4 text-white hidden ">
-    //         <li>Tokenomics</li>
-    //         <li>LightPaper</li>
-    //         <li>Roadmap</li>
-    //         <li>FAQ</li>
-    //       </ul>
-    //       <button className=" bg-white px-[20px] py-1 rounded hidden" >Start</button>
-    //       <div className=" md:hidden">
-          
-    //       </div>
-         
-
-    //     </div>
-
-    //     <div className="md:hidden bg-cover h-[100vh] bg-green-400">
-    //       <div className=" flex justify-between">
-    //       <img className="w-[50px]" src="../../public/image/SPK.4d91f7a0.png" alt="" />
-    //       <h1 className="text-[30px]">x</h1>
-    //       </div>
-
-    //     <div className="w-[60%] h-full bg-blue-300  ">
-    //      <ul className="block  text-white ">
-    //         <li className="p-4">Tokenomics</li>
-    //         <li className="p-4">LightPaper</li>
-    //         <li className="p-4">Roadmap</li>
-    //         <li className="p-4">FAQ</li>
-    //       </ul>
-    //      </div>
-    //     </div>
-        
-    //   </div>
-    // </div>
   );
 }

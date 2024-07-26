@@ -6,7 +6,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './page/Home'
 import Monetization from './page/Monetization'
 import Tokenomics from './page/Tokenomics'
-// import Boxtest from './components/Boxtest'
 
 
 function App() {
@@ -30,5 +29,3 @@ function App() {
 }
 
 export default App
-
-{/* <Navbar  /> */}
