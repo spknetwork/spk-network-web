@@ -1,7 +1,6 @@
 import Header from "../components/Header";
 import Network from "../components/Network";
 import Networkmain from "../components/Networkmain";
-// import Stunt from "../components/Stunt";
 import Test from "../components/Test";
 import Faq from "../components/Faq";
 import Footer from "../components/Footer";
@@ -15,7 +14,6 @@ export default function Home() {
     <Navbar />
     <Header />
     <Networkmain /> 
-    {/* <Stunt />  */}
     <Network /> 
     <Slider />
     <Test /> 
@@ -25,5 +23,3 @@ export default function Home() {
     </>
   )
 }
-// overflow-x-hidden app
-// overflow-y-scroll

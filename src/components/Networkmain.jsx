@@ -27,7 +27,7 @@ function Networkmain() {
                         <p>— Node operators provide video encoding / transcoding services to users on the network in exchange for direct payments for their work.</p>
                     </div>
                 </div>
-                <div data-aos="zoom-in-down" className="box-3 flex gap-5 light-bg p-6 rounded-lg">
+                {/* <div data-aos="zoom-in-down" className="box-3 flex gap-5 light-bg p-6 rounded-lg">
                     <div>
                      <GrVirtualStorage size={30} />
                     </div>
@@ -35,7 +35,7 @@ function Networkmain() {
                         <h3 className="mb-2 text-[white] font-bold text-[20px]">Indexing Nodes</h3>
                         <p>— Indexing nodes keep track of posts on the network and account metadata. These nodes play a crucial role in UX and performance of the network.</p>
                     </div>
-                </div>
+                </div> */}
                 <div data-aos="zoom-in-down" className="box-4 flex gap-5 light-bgt p-6 rounded-lg">
                     <div>
                      <GrVirtualStorage size={30} />
@@ -45,7 +45,10 @@ function Networkmain() {
                         <p>— SPK nodes providing infrastructure in the network will operate validator nodes that will independently execute validation checks to ensure storage provider nodes are being truthful and consistent.</p>
                     </div>
                 </div>
-                <div data-aos="zoom-in-down" className="box-5 flex gap-5 light-bg p-6 rounded-lg">
+                
+            </div>
+            <div className="max-w-[1240px] mx-auto flex flex-col gap-2 md:flex-row md:justify-center pt-[20px] ">
+                <div data-aos="zoom-in-down" className="box-5 flex gap-5 light-bg p-6 rounded-lg  w-[400px] ">
                     <div>
                      <GrVirtualStorage size={30} />
                     </div>
@@ -54,7 +57,7 @@ function Networkmain() {
                         <p>— Users of the network can operate a Content Delivery Gateway. These nodes provide hot, high volume throughput for serving videos for possibly thousands of users at a time.</p>
                     </div>
                 </div>
-                <div data-aos="zoom-in-down" className="box-6 flex gap-5 light-bgs p-6 rounded-lg">
+                <div data-aos="zoom-in-down" className="box-6 flex gap-5 light-bgs p-6 rounded-lg w-[400px]">
                     <div>
                      <GrVirtualStorage size={30} />
                     </div>
