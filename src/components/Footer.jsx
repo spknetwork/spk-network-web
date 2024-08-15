@@ -9,8 +9,8 @@ import { BsMedium } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300" data-aos="fade-up"
-    data-aos-duration="1000">
+    <>
+    <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300" data-aos="fade-up" data-aos-duration="1000">
       <div className="sm-1:mx-auto">
         <h1 className="w-full text-3xl font-bold text-[#00df9a] sm-1:text-center md:text-left">
           SPK Network.
@@ -89,6 +89,8 @@ const Footer = () => {
         </div>
       </div>
     </div>
+    <h3 className="text-center mb-[10px] mt-[20px] font-bold ">Powered By Hive</h3>
+    </>
   );
 };
 
