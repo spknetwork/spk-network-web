@@ -1,78 +1,107 @@
-import "./test.css"
+import "./test.css";
+import rally1 from "../../src/assets/rally.png";
+import spendhbd from "../../src/assets/spendhbd.png";
+import aliento from "../../src/assets/aliento.png";
+import Rosarito from "../../src/assets/Rosarito.png";
+import vibes from "../../src/assets/vibes.jpg";
+import bitcoinmachines from "../../src/assets/bitcoin-machine.jfif";
+import starter from "../../src/assets/starter.png";
 
 export default function Test() {
-  return ( 
-    <div className="main-margin  min-h-screen" >
-      <h1 className="text-center text-[45px] mt-20 mb[20px]" data-aos="fade-up"
-     data-aos-duration="3000"> COMMUNITIES</h1>
-      <p className="text-center text-[22px] md:mx-[120px]" data-aos="fade-up"
-     data-aos-duration="3000">Communities are immutable! Communities are owned by the creator and cannot be deleted by anyone but the creator. Information about a community is either stored on the blockchain or a distributed ledger (For example Ceramic).</p>
-      <div className="flex justify-center  items-center mt-[20px]">
-      <div  className="mt-[34px] lg:mt-[60px] Partnerships_list__OznYa">
-        <div data-aos="zoom-in" className="lg:h-[84px]  flex items-center justify-center rounded-[8px] lg:rounded-[12px] text Partnerships_base__m1APG">
-          <img src="../../image/Leo.png" alt="" className="lg:h-[84px] lg:w-[84px] logo-img  p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]  " /> <span className="text-[18px]"> LeoFinance</span>
-        </div>
-        <div data-aos="zoom-in" className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/hive-game.png" alt="" className="lg:h-[84px] lg:w-[84px] logo-img  p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px]"> Hive Gaming</span>
-        </div>
-        <div data-aos="zoom-in" className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/deep-dive.jfif" alt="" className="lg:h-[84px] lg:w-[84px] logo-img p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px]"> Deep Dives</span>
-        </div>
-        <div data-aos="zoom-in" className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/3speak.png" alt="" className="lg:h-[84px] lg:w-[84px] logo-img p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px]"> Threespeak</span>
-        </div>
-        <div data-aos="zoom-in" className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/Gem.png" alt="" className="lg:h-[84px] lg:w-[84px] logo-img p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px]"> Gem</span>
-        </div>
-        <div data-aos="zoom-in" className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/splinterland.png" alt="" className="lg:h-[84px] lg:w-[84px] logo-img p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px] pr-1">Splinterlands</span>
-        </div>
-        <div data-aos="zoom-in" className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/hive-Ghana.png" alt="" className="lg:h-[84px] lg:w-[84px] logo-img p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px] pr-1">Hive Ghana</span>
-        </div>
-        <div data-aos="zoom-in" className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/hive-ph.png" alt="" className="lg:h-[84px] lg:w-[84px] logo-img p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px] pr-1">Hive PH</span>
-        </div>
-        <div data-aos="zoom-in" className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/beer.png" alt="" className="lg:h-[84px] lg:w-[84px] logo-img p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px] pr-1">BEER</span>
-        </div>
-        <div data-aos="zoom-in" className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/music.png" alt="" className="lg:h-[84px]  lg:w-[84px] logo-img p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px] pr-1">Music</span>
-        </div>
-        <div data-aos="zoom-in" className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/diyhub.png" alt="" className="lg:h-[84px] lg:w-[84px] logo-img p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px] pr-1">DIYHUB</span>
-        </div>
-        <div data-aos="zoom-in" className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/sketch-book.png" alt="" className="lg:h-[84px] lg:w-[84px] logo-img p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px] pr-1">Sketch Book</span>
-        </div>
-        <div data-aos="zoom-in" className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/dbuzz.jpg" alt="" className="lg:h-[84px] lg:w-[84px] logo-img p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px] pr-1">DBUZZ</span>
-        </div>
-        <div data-aos="zoom-in" className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/photography-lovers.jpg" alt="" className="lg:h-[84px] lg:w-[84px] logo-img p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px] pr-1">Photography-lovers</span>
-        </div>
-        <div className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/rally.jpg" alt="" className="lg:h-[84px] lg:w-[84px] logo-img p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px] pr-1">Rally</span>
-        </div>
-        <div className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/vibes.jpg" alt="" className="lg:h-[84px] lg:w-[84px] logo-img p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px] pr-1">Vibes</span>
-        </div>
-        <div data-aos="zoom-in" className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/actifit.png" alt="" className="lg:h-[84px] lg:w-[84px] logo-img p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px] pr-1">Actifit</span>
-        </div>
-        <div data-aos="zoom-in" className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/ladies-of-hive.jpg" alt="" className="lg:h-[84px] lg:w-[84px] logo-img p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px] pr-1">Ladies Of Hive</span>
-        </div>
-        <div className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/proof of brain.png" alt="" className="lg:h-[84px] lg:w-[84px] logo-img p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px] pr-1">Proof Of Brain</span>
-        </div>
-        <div data-aos="zoom-in" className="lg:h-[84px] flex items-center justify-center rounded-[8px] lg:rounded-[12px] dark Partnerships_base__m1APG">
-          <img src="../../image/aliento.png" alt="" className="lg:h-[84px] lg:w-[84px] logo-img p-3 flex items-center justify-center rounded-[8px] lg:rounded-[12px]   " /><span className="text-[18px] pr-1">Aliento</span>
-        </div>
+  const data = [
+    {
+      title: "Rally",
+      img: rally1,
+      link: "https://hiverally.com/",
+      about:
+        "Rally sport (World Rally Championship, European Rally Championship, National Rally Championships)",
+    },
+    {
+      title: "SpendHBD",
+      img: spendhbd,
+      link: "https://spendhbd.com/",
+      about: "Find a local business that accepts HBD or Bitcoin Lightning",
+    },
+    {
+      title: "Aliento",
+      img: aliento,
+      link: "https://aliento.blog/",
+      about:
+        "Aliento es una comunidad general donde puedes dar tus primeros pasos en Hive.",
+    },
+    {
+      title: "Rosarito",
+      img: Rosarito,
+      link: "https://rosarito.community/",
+      about:
+        "Una comunidad sobre Rosarito, México y los negocios que lo respaldan.",
+    },
+    {
+      title: "Vibe",
+      img: vibes,
+      link: "https://hivevibes.community/",
+      about:
+        "A weekly music competition that's bringing back good vibes to WEB3",
+    },
+    {
+      title: "Bitcoin Machines",
+      img: bitcoinmachines,
+      link: "https://bitcoinmachines.community/",
+      about:
+        "Una comunidad sobre Rosarito, México y los negocios que lo respaldan.",
+    },
+    {
+      title: "StarterKitDAO",
+      img: starter,
+      link: "https://app.getstarterkit.com/trending/hive-139307",
+      about:
+        "Here are the tools, just start.",
+    },
+  ];
+  return (
+    <div className="main-margin  min-h-screen">
+      <h1
+        className="text-center text-[20px] md:text-[45px] mt-20 mb[20px] font-bold text-white"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
+        {" "}
+        Breakaway Communties 
+      </h1>
+      <p
+        className="text-center text-[18px] md:text-[22px] md:mx-[120px]"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
+        A seamless way to create tokenised community social frontend platforms on the Hive blockchain.
+      </p>
+      <a href="https://breakaway.community/docker-setup" className="cursor-pointer flex justify-center mb-[20px] mt-[10px] " data-aos="fade-up"
+        data-aos-duration="3000"><button className='py-[4px] px-[20px] md:p-4 faint rounded-md text-[#9ca9b3]'> LAUNCH YOUR PLATFROM</button></a>
 
-
+      <div className="flex flex-wrap justify-center gap-4">
+  {data.map((data, index) => (
+    <div
+      key={index}
+      className="p-[3px_10px] w-[100%] md:w-[265px] h-[100%] md:h-[410px] gap-[10px] light-bgt mb-[10px] rounded-[10px] overflow-hidden text-ellipsis flex flex-col items-center"
+    >
+      <div className="w-[100%] h-[220px] w-[100%] h-[150px] flex-shrink-0">
+        <img src={data.img} alt={data.title} className="w-[100%] h-[100%] rounded-[4px]" />
       </div>
-      </div>
+      <p className="text-center">{data.title}</p>
+      <p className="text-center">{data.about}</p>
+      <a
+        href={data.link}
+        className="flex justify-center items-center text-center text-[16px]"
+      >
+        <button className="py-[3px] px-[40px] bg-[#007bff] rounded-[8px] text-[16px] text-white">
+          Visit Platform
+        </button>
+      </a>
     </div>
-  )
+  ))}
+</div>
+
+
+    </div>
+  );
 }
