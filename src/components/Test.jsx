@@ -84,7 +84,7 @@ export default function Test() {
       key={index}
       className="p-[3px_10px] w-[100%] md:w-[265px] h-[100%] md:h-[410px] gap-[10px] light-bgt mb-[10px] rounded-[10px] overflow-hidden text-ellipsis flex flex-col items-center"
     >
-      <div className="w-[100%] h-[220px] w-[100%] h-[150px] flex-shrink-0">
+      <div className="w-[100%] h-[100%] md:h-[220px] w-[100%]  flex-shrink-0">
         <img src={data.img} alt={data.title} className="w-[100%] h-[100%] rounded-[4px]" />
       </div>
       <p className="text-center">{data.title}</p>
